@@ -59,7 +59,7 @@ const TermsandConditions = () => {
                     <div className="mb-4">
                         <h4>7. Limitation of Liability</h4>
                         <p>
-                            Edit-Ezy is not liable for any indirect, incidental, or consequential damages resulting from your use of the App. The app is provided "as is" without warranties of any kind.
+                            One-Square is not liable for any indirect, incidental, or consequential damages resulting from your use of the App. The app is provided "as is" without warranties of any kind.
                         </p>
                     </div>
 
