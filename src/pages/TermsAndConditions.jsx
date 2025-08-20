@@ -2,90 +2,240 @@ import React from "react";
 
 const TermsandConditions = () => {
     return (
-        <div className="container py-5">
+        <div className="container-fluid py-5">
             <div className="row justify-content-center">
                 <div className="col-lg-10 col-md-11 col-12">
-                    <h1 className="mb-4 text-center">Terms and Conditions</h1>
-                    <p>
+                    {/* Header Section */}
+                    <div className="text-center mb-5">
+                        <h1 className="display-4 fw-bold text-primary mb-3">Terms and Conditions</h1>
+                        <p className="text-muted">Last updated: {new Date().toLocaleDateString()}</p>
+                        <div className="divider mx-auto bg-gradient-primary" style={{ width: '80px', height: '4px', borderRadius: '2px' }}></div>
+                    </div>
+
+                    <p className="lead text-center mb-5">
                         These Terms and Conditions ("Terms") govern your use of the{" "}
-                        <strong>One-Square</strong> application ("App"). By accessing or using the App, you agree to comply with and be bound by these Terms.
+                        <strong className="text-primary">EzyStudio</strong> application ("App"). By accessing or using the App, you agree to these Terms in full.
                     </p>
 
-                    <div className="mb-4">
-                        <h4>1. Acceptance of Terms</h4>
-                        <p>
-                            By creating an account or using any part of the App, you accept these Terms in full. If you disagree with any part of the Terms, you must not use the App.
-                        </p>
-                    </div>
+                    {/* Terms Content */}
+                    <div className="terms-content">
+                        <div className="terms-card card border-0 shadow-sm mb-4">
+                            <div className="card-body p-4">
+                                <h4 className="mb-3 d-flex align-items-center">
+                                    <span className="number-badge me-3">1</span>
+                                    Acceptance of Terms
+                                </h4>
+                                <p className="mb-0">
+                                    By registering or using the App, you agree to follow these Terms. If you do not agree, you must stop using the App immediately.
+                                </p>
+                            </div>
+                        </div>
 
-                    <div className="mb-4">
-                        <h4>2. Eligibility</h4>
-                        <p>
-                            You must be at least 13 years old to use the App. By using the App, you confirm that you meet this requirement.
-                        </p>
-                    </div>
+                        <div className="terms-card card border-0 shadow-sm mb-4">
+                            <div className="card-body p-4">
+                                <h4 className="mb-3 d-flex align-items-center">
+                                    <span className="number-badge me-3">2</span>
+                                    Eligibility
+                                </h4>
+                                <p className="mb-0">
+                                    You must be at least 13 years old to use the App. By using the App, you confirm that you meet this minimum age requirement.
+                                </p>
+                            </div>
+                        </div>
 
-                    <div className="mb-4">
-                        <h4>3. User Responsibilities</h4>
-                        <ul>
-                            <li>Provide accurate and up-to-date information during registration.</li>
-                            <li>Maintain the confidentiality of your login credentials.</li>
-                            <li>Do not misuse the App or upload content that is illegal, offensive, or violates intellectual property rights.</li>
-                        </ul>
-                    </div>
+                        <div className="terms-card card border-0 shadow-sm mb-4">
+                            <div className="card-body p-4">
+                                <h4 className="mb-3 d-flex align-items-center">
+                                    <span className="number-badge me-3">3</span>
+                                    User Responsibilities
+                                </h4>
+                                <ul className="list-styled">
+                                    <li>Provide true and accurate details during registration.</li>
+                                    <li>Keep your account credentials private and secure.</li>
+                                    <li>Do not misuse the App or upload harmful, offensive, or unlawful content.</li>
+                                </ul>
+                            </div>
+                        </div>
 
-                    <div className="mb-4">
-                        <h4>4. Content Ownership</h4>
-                        <p>
-                            You retain ownership of the content you create using the App.
-                        </p>
-                    </div>
+                        <div className="terms-card card border-0 shadow-sm mb-4">
+                            <div className="card-body p-4">
+                                <h4 className="mb-3 d-flex align-items-center">
+                                    <span className="number-badge me-3">4</span>
+                                    Content Ownership
+                                </h4>
+                                <p className="mb-0">
+                                    You own the rights to the content you create. However, by uploading, you grant us a license to use it for operating and improving the App.
+                                </p>
+                            </div>
+                        </div>
 
-                    <div className="mb-4">
-                        <h4>5. Usage Restrictions</h4>
-                        <ul>
-                            <li>Do not use the App for unlawful or unauthorized purposes.</li>
-                            <li>Do not attempt to reverse engineer, copy, or resell the App or its services.</li>
-                        </ul>
-                    </div>
+                        <div className="terms-card card border-0 shadow-sm mb-4">
+                            <div className="card-body p-4">
+                                <h4 className="mb-3 d-flex align-items-center">
+                                    <span className="number-badge me-3">5</span>
+                                    Usage Restrictions
+                                </h4>
+                                <ul className="list-styled">
+                                    <li>Do not use the App for illegal or unauthorized purposes.</li>
+                                    <li>Do not copy, distribute, reverse engineer, or resell the App or its services.</li>
+                                </ul>
+                            </div>
+                        </div>
 
-                    <div className="mb-4">
-                        <h4>6. Termination</h4>
-                        <p>
-                            We reserve the right to suspend or terminate your account at our discretion, especially in cases of misuse, fraud, or violation of these Terms.
-                        </p>
-                    </div>
+                        <div className="terms-card card border-0 shadow-sm mb-4">
+                            <div className="card-body p-4">
+                                <h4 className="mb-3 d-flex align-items-center">
+                                    <span className="number-badge me-3">6</span>
+                                    Termination
+                                </h4>
+                                <p className="mb-0">
+                                    We may suspend or terminate your account if you violate these Terms, engage in fraudulent activities, or misuse the App.
+                                </p>
+                            </div>
+                        </div>
 
-                    <div className="mb-4">
-                        <h4>7. Limitation of Liability</h4>
-                        <p>
-                            One-Square is not liable for any indirect, incidental, or consequential damages resulting from your use of the App. The app is provided "as is" without warranties of any kind.
-                        </p>
-                    </div>
+                        <div className="terms-card card border-0 shadow-sm mb-4">
+                            <div className="card-body p-4">
+                                <h4 className="mb-3 d-flex align-items-center">
+                                    <span className="number-badge me-3">7</span>
+                                    Limitation of Liability
+                                </h4>
+                                <p className="mb-0">
+                                    EzyStudio is provided on an "as-is" basis. We are not liable for indirect, incidental, or consequential damages resulting from use of the App.
+                                </p>
+                            </div>
+                        </div>
 
-                    <div className="mb-4">
-                        <h4>8. Changes to Terms</h4>
-                        <p>
-                            These Terms may be updated periodically. Continued use of the App after changes indicates your acceptance of the updated Terms.
-                        </p>
-                    </div>
+                        <div className="terms-card card border-0 shadow-sm mb-4">
+                            <div className="card-body p-4">
+                                <h4 className="mb-3 d-flex align-items-center">
+                                    <span className="number-badge me-3">8</span>
+                                    Changes to Terms
+                                </h4>
+                                <p className="mb-0">
+                                    We may revise these Terms periodically. Updates will be effective once posted in-app. Continued use means acceptance of the updated Terms.
+                                </p>
+                            </div>
+                        </div>
 
-                    <div className="mb-4">
-                        <h4>9. Contact Us</h4>
-                        <p>
-                            For any questions or concerns, please contact us at:{" "}
-                            <a
-                                href="https://mail.google.com/mail/?view=cm&fs=1&to=businessbadavo@gmail.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                businessbadavo@gmail.com
-                            </a>
+                        <div className="terms-card card border-0 shadow-sm mb-4">
+                            <div className="card-body p-4">
+                                <h4 className="mb-3 d-flex align-items-center">
+                                    <span className="number-badge me-3">9</span>
+                                    Contact Us
+                                </h4>
+                                <div className="mt-3 p-3 bg-light rounded">
+                                    <p className="mb-0">
+                                        For questions or clarifications, contact us at:{" "}
+                                        <a
+                                            href="https://mail.google.com/mail/?view=cm&fs=1&to=info.ezystudio@gmail.com&su=Hello&body=I%20would%20like%20to%20connect"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="fw-semibold text-decoration-none"
+                                        >
+                                            info.ezystudio@gmail.com
+                                        </a>
 
-                        </p>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+            <style jsx>{`
+                .number-badge {
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 32px;
+                    height: 32px;
+                    background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+                    color: white;
+                    border-radius: 50%;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+                
+                .list-styled {
+                    list-style: none;
+                    padding-left: 0;
+                    margin-bottom: 0;
+                }
+                
+                .list-styled li {
+                    position: relative;
+                    padding-left: 1.5rem;
+                    margin-bottom: 0.5rem;
+                }
+                
+                .list-styled li:before {
+                    content: "•";
+                    color: #0d6efd;
+                    font-weight: bold;
+                    position: absolute;
+                    left: 0.5rem;
+                }
+                
+                .terms-card {
+                    transition: transform 0.3s ease, box-shadow 0.3s ease;
+                    border-left: 4px solid #0d6efd !important;
+                }
+                
+                .terms-card:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1) !important;
+                }
+                
+                .bg-gradient-primary {
+                    background: linear-gradient(135deg, #0d6efd 0%, #0a58ca 100%);
+                }
+                
+                .lead {
+                    font-size: 1.2rem;
+                    line-height: 1.6;
+                }
+                
+                /* Responsive adjustments */
+                @media (max-width: 768px) {
+                    .display-4 {
+                        font-size: 2.2rem;
+                    }
+                    
+                    .terms-card {
+                        border-left: 3px solid #0d6efd !important;
+                    }
+                    
+                    .card-body {
+                        padding: 1.5rem !important;
+                    }
+                    
+                    .lead {
+                        font-size: 1.1rem;
+                    }
+                }
+                
+                @media (max-width: 576px) {
+                    .display-4 {
+                        font-size: 1.8rem;
+                    }
+                    
+                    .card-body {
+                        padding: 1.25rem !important;
+                    }
+                    
+                    .number-badge {
+                        width: 28px;
+                        height: 28px;
+                        font-size: 14px;
+                    }
+                    
+                    .lead {
+                        font-size: 1rem;
+                    }
+                }
+            `}</style>
         </div>
     );
 };
