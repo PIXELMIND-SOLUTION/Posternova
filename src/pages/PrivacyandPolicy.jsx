@@ -96,12 +96,12 @@ const PrivacyAndPolicy = () => {
                                     <p className="mb-0">
                                         To exercise these rights, contact us at:{" "}
                                         <a
-                                            href="https://mail.google.com/mail/?view=cm&fs=1&to=info.ezystudio@gmail.com&su=Hello&body=I%20would%20like%20to%20connect"
+                                            href="https://mail.google.com/mail/?view=cm&fs=1&to=info.editezy@gmail.com&su=Hello&body=I%20would%20like%20to%20connect"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="fw-semibold text-decoration-none"
                                         >
-                                            info.ezystudio@gmail.com
+                                            info.editezy@gmail.com
                                         </a>
 
                                     </p>
@@ -154,12 +154,12 @@ const PrivacyAndPolicy = () => {
                                 <p className="mb-0">
                                     If you have questions or concerns, reach out at:{" "}
                                     <a
-                                        href="https://mail.google.com/mail/?view=cm&fs=1&to=info.ezystudio@gmail.com&su=Hello&body=I%20would%20like%20to%20connect"
+                                        href="https://mail.google.com/mail/?view=cm&fs=1&to=info.editezy@gmail.com&su=Hello&body=I%20would%20like%20to%20connect"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="fw-semibold text-decoration-none"
                                     >
-                                        info.ezystudio@gmail.com
+                                        info.editezy@gmail.com
                                     </a>
 
 
