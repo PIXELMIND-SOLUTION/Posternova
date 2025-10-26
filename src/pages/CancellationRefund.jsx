@@ -14,7 +14,7 @@ const CancellationRefundPolicy = () => {
       <section className="mb-4">
         <h5 className="fw-semibold">1. Cancellation Policy</h5>
         <p>
-          At <strong>EditEZY</strong>, we strive to deliver a smooth and transparent user experience. 
+          At <strong>Posternova</strong>, we strive to deliver a smooth and transparent user experience. 
           If you wish to cancel your purchase or subscription, please review the following terms:
         </p>
         <ul>
@@ -55,8 +55,8 @@ const CancellationRefundPolicy = () => {
           transaction details and the reason for your request:
         </p>
         <ul>
-          <li>Email: <a href="mailto:info.editezy@gmail.com">info.editezy@gmail.com</a></li>
-          <li>Subject: <em>Refund Request – EditEZY</em></li>
+          <li>Email: <a href="mailto:info.posternova@gmail.com">info.posternova@gmail.com</a></li>
+          <li>Subject: <em>Refund Request – Posternova</em></li>
         </ul>
       </section>
 
@@ -64,7 +64,7 @@ const CancellationRefundPolicy = () => {
         <h5 className="fw-semibold">4. Force Majeure</h5>
         <p>
           In the event of unforeseen circumstances beyond our control — such as natural disasters, 
-          system outages, or government restrictions — EditEZY reserves the right to cancel services 
+          system outages, or government restrictions — Posternova reserves the right to cancel services 
           or delay refunds without liability. In such cases, affected users will receive full refunds 
           where applicable.
         </p>
@@ -76,14 +76,14 @@ const CancellationRefundPolicy = () => {
           For any questions or concerns regarding our Cancellation & Refund Policy, please contact us:
         </p>
         <ul>
-          <li>Email: <a href="mailto:info.editezy@gmail.com">info.editezy@gmail.com</a></li>
-          <li>Website: <a href="https://editezy.com" target="_blank" rel="noopener noreferrer">https://editezy.com</a></li>
+          <li>Email: <a href="mailto:info.posternova@gmail.com">info.posternova@gmail.com</a></li>
+          <li>Website: <a href="https://Posternova.com" target="_blank" rel="noopener noreferrer">https://Posternova.com</a></li>
         </ul>
       </section>
 
       <div className="text-center mt-5">
         <p className="text-muted small">
-          © {new Date().getFullYear()} EditEZY. All rights reserved.
+          © {new Date().getFullYear()} Posternova. All rights reserved.
         </p>
       </div>
     </div>

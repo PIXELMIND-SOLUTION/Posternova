@@ -14,7 +14,7 @@ const TermsandConditions = () => {
 
                     <p className="lead text-center mb-5">
                         These Terms and Conditions ("Terms") govern your use of the{" "}
-                        <strong className="text-primary">EditEZY</strong> application ("App"). By accessing or using the App, you agree to these Terms in full.
+                        <strong className="text-primary">Posternova</strong> application ("App"). By accessing or using the App, you agree to these Terms in full.
                     </p>
 
                     {/* Terms Content */}
@@ -101,7 +101,7 @@ const TermsandConditions = () => {
                                     Limitation of Liability
                                 </h4>
                                 <p className="mb-0">
-                                    editezy is provided on an "as-is" basis. We are not liable for indirect, incidental, or consequential damages resulting from use of the App.
+                                    Posternova is provided on an "as-is" basis. We are not liable for indirect, incidental, or consequential damages resulting from use of the App.
                                 </p>
                             </div>
                         </div>
@@ -128,12 +128,12 @@ const TermsandConditions = () => {
                                     <p className="mb-0">
                                         For questions or clarifications, contact us at:{" "}
                                         <a
-                                            href="https://mail.google.com/mail/?view=cm&fs=1&to=info.editezy@gmail.com&su=Hello&body=I%20would%20like%20to%20connect"
+                                            href="https://mail.google.com/mail/?view=cm&fs=1&to=info.posternova@gmail.com&su=Hello&body=I%20would%20like%20to%20connect"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="fw-semibold text-decoration-none"
                                         >
-                                            info.editezy@gmail.com
+                                            info.posternova@gmail.com
                                         </a>
 
                                     </p>
